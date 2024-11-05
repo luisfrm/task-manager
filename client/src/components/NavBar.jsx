@@ -8,7 +8,7 @@ export default function NavBar() {
   console.log(isAuthenticated)
 
   return (
-		<nav className="bg-zinc-700 my-3 flex justify-between py-5 px-10">
+		<nav className="bg-zinc-700 flex justify-between py-5 px-10">
 			<Link to="/">
 				<h1 className="text-2xl font-bold">Task Manager</h1>
 			</Link>

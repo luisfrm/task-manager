@@ -6,7 +6,7 @@ export default function TasksPage() {
 	const { tasks } = useTask();
 
 	return (
-		<div className="w-full grid">
+		<div className="w-full grid my-4 gap-4">
 			<TaskFormPage />
 			{tasks.map((task, index) => (
 				<div

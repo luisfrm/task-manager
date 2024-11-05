@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import { AuthProvider } from "./context/AuthContext";
-import Homepage from "./pages/Homepage";
+// import Homepage from "./pages/Homepage";
 import TasksPage from "./pages/TasksPage";
 import TaskFormPage from "./pages/TasksPage";
 import Profile from "./pages/Profile";
@@ -15,7 +15,7 @@ export default function App() {
 			<BrowserRouter>
 			<NavBar />
 				<Routes>
-					<Route path="/" element={<Homepage />} />
+					<Route path="/" element={<LoginPage />} />
 					<Route path="/login" element={<LoginPage />} />
 					<Route path="/register" element={<RegisterPage />} />
 

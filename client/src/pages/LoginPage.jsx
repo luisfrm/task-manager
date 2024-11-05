@@ -26,7 +26,7 @@ export default function LoginPage() {
 	}, [isAuthenticated, navigate]);
 
   return (
-    <div className="grid items-center sm:justify-center min-h-screen">
+    <div className="grid items-center sm:justify-center min-h-dvh">
 			<div className="bg-zinc-800 w-100 sm:w-[375px] p-10 rounded-2xl h-max">
 				<form onSubmit={handleSubmit(onSubmit)} className="grid">
 					<CustomInput
