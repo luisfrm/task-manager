@@ -19,7 +19,9 @@ export default function ProtectedRoute() {
 
   return (
 		<TaskProvider>
-			<Outlet />
+			<main className="mx-auto w-full max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
+        <Outlet />
+      </main>
 		</TaskProvider>
 	);
 }
